@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-test-6"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-11wd1yluyxqkr"
+s3_prefix = "aws-test-6"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
